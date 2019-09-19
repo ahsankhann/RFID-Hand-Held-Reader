@@ -1,0 +1,7 @@
+﻿Check temperature and humidity,aa 01 55
+Turn on the infrared,aa 03 55
+Infrared temperature measurement,aa 07 55
+Turn on the wind speed,aa 05 55
+Get wind speed,aa 02 55
+Turn off infrared,aa 04 55
+Turn off wind speed,aa 06 55

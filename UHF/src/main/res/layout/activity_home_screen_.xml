@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimg"
+    android:orientation="vertical"
+    tools:context=".HomeScreen_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="39dp">
+
+        <TextView
+            android:id="@+id/txtDashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textSize="22sp"
+            android:text="Muhammad Ahsan"/>
+
+        <TextView
+            android:id="@+id/txtuserid"
+            android:layout_below="@id/txtDashboard"
+            android:textSize="14sp"
+            android:textColor="#ffff"
+            android:text="511548"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:id="@+id/imglogin"
+            android:src="@drawable/login_logo"
+            android:layout_alignParentRight="true"
+            android:layout_width="52dp"
+            android:layout_height="52dp" />
+        <TextView
+            android:id="@+id/logouttxt"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/imglogin"
+            android:text="logout"
+            android:gravity="center"
+            android:textColor="#ffff"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/mainGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        app:columnCount="2"
+        app:rowCount="2"
+        app:alignmentMode="alignMargins"
+        app:columnOrderPreserved="false">
+
+        <!-- Row 1 -->
+
+        <!-- Column 1 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="6dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rfid_regs"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Registration TAG"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- Column 2 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="6dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:layout_columnWeight="2"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/rfid_scan"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Scan RFID TAG"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- Row 2 -->
+
+        <!-- Column 1 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="6dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/iconslogistics"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TAG Records"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- Column 2 -->
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="6dp"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="12dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/nfc_card"
+                    android:layout_gravity="center_horizontal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Others"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+    </android.support.v7.widget.GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+﻿Get the hardware version,BB 00 03 00 01 00 04 7E
+Get the software version,BB 00 03 00 01 01 05 7E
+Single round,BB 00 22 00 00 22 7E
+Multiple rounds,BB 00 27 00 03 22 FF FF 4A 7E
+Stop multiple rounds,BB 00 28 00 00 28 7E
+Band scanning,BB 00 A9 00 06 05 01 02 03 04 05 C3 7E
+High sensitivity,BB 00 F5 00 01 00 F6 7E
+Dense reader,BB 00 F5 00 01 01 F7 7E
+Sleep,BB 00 17 00 00 17 7E

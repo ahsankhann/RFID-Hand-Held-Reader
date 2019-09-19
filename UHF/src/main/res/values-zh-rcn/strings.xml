@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">UHF工具</string>
+    <string name="serialport_name">串口</string>
+    <string name="serialport_buad">波特率</string>
+
+    <string name="str_serialport_hexrec">16进制接收</string>
+    <string name="str_serialport_hexsend">16进制发送</string>
+    <string name="str_button_send">发送</string>
+    <string name="str_button_open">打开</string>
+    <string name="str_button_close">关闭</string>
+    <string name="str_button_clean_recv">清空接收</string>
+    <string name="str_button_clean_total">清空统计</string>
+
+    <string name="tab_setting">设置</string>
+    <string name="tab_cmd">指令</string>
+    <string name="tab_epclist">EPC列表</string>
+    <string name="str_workareas">工作地区</string>
+    <string name="str_workchannel">工作信道</string>
+    <string name="str_workautofh">自动跳频</string>
+    <string name="str_workpower">发射功率</string>
+    <string name="str_continnouswave">连续载波</string>
+    <string name="str_workmodem_mixer">混频器增益</string>
+    <string name="str_workmodem_ifamp">中频放大器增益</string>
+</resources>

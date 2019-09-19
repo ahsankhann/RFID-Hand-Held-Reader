@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RFID Reader</string>
+    <string name="serialport_name">Serialport</string>
+    <string name="serialport_buad">Baudrate</string>
+
+    <string name="str_serialport_hexrec">Hex receive</string>
+    <string name="str_serialport_hexsend">Hex send</string>
+    <string name="str_button_send">SEND</string>
+    <string name="str_button_open">OPEN</string>
+    <string name="str_button_close">CLOSE</string>
+    <string name="str_button_clean_recv">Clean receive</string>
+    <string name="str_button_clean_total">Clean statistics</string>
+
+    <string name="tab_setting">SETTING</string>
+    <string name="tab_cmd">CMD</string>
+    <string name="tab_epclist">EPC LIST</string>
+    <string name="str_setworkplace" translatable="false">WorkAreas</string>
+    <string name="str_workchannel">Position</string>
+    <string name="str_workautofh">AutoFH</string>
+    <string name="str_workareas">Vehicle No</string>
+    <string name="str_workpower">TransPower</string>
+    <string name="str_continnouswave">ContinnousWave</string>
+    <string name="str_workmodem_mixer">Mixer</string>
+    <string name="str_workmodem_ifamp">IF AMP</string>
+</resources>
